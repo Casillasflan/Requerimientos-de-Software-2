@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Jugador.tscn" type="PackedScene" id=1]
+[ext_resource path="res://StaticBody2D.tscn" type="PackedScene" id=2]
+
+[node name="Escena" type="Node2D"]
+
+[node name="Jugador" parent="." instance=ExtResource( 1 )]
+position = Vector2( 133, 95 )
+
+[node name="Baldosa" parent="." instance=ExtResource( 2 )]
+position = Vector2( 52, 147 )
+
+[node name="Baldosa2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 767, 400 )
+
+[node name="Baldosa3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 393, 289 )
