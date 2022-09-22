@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var velocidad:int = 400
-var brinco:int = 700
+var brinco:int = 800
 var gravedad:int = 850
 var vel:Vector2 = Vector2()
 var piso:bool = false
