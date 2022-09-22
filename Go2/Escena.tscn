@@ -12,16 +12,52 @@ position = Vector2( 133, 95 )
 position = Vector2( 52, 146 )
 
 [node name="Baldosa2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 57, 447 )
+position = Vector2( 1016, 725 )
 
 [node name="Baldosa3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 776, 438 )
+position = Vector2( 2128, 903 )
 
 [node name="Baldosa4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 649, 291 )
+position = Vector2( 1434, 949 )
 
 [node name="Baldosa5" parent="." instance=ExtResource( 2 )]
-position = Vector2( 262, 302 )
+position = Vector2( 173, 1001 )
 
 [node name="Baldosa6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 711, 115 )
+position = Vector2( 1301, 134 )
+
+[node name="Baldosa7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1572, 481 )
+
+[node name="Baldosa8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3037, 536 )
+
+[node name="Baldosa9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 458, 561 )
+
+[node name="Baldosa10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2233, 232 )
+
+[node name="Baldosa11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 5021, 186 )
+
+[node name="Baldosa12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4157, 705 )
+
+[node name="Baldosa13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4975, 609 )
+
+[node name="Baldosa14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4546, 186 )
+
+[node name="Baldosa15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3700, 963 )
+
+[node name="Baldosa16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4581, 953 )
+
+[node name="Baldosa17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2838, 897 )
+
+[node name="Baldosa18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3926, 272 )

@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-var velocidad:int = 200
-var brinco:int = 600
-var gravedad:int = 800
+var velocidad:int = 400
+var brinco:int = 700
+var gravedad:int = 850
 var vel:Vector2 = Vector2()
 var piso:bool = false
 onready var sprite = $Sprite
