@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Jugador.tscn" type="PackedScene" id=1]
 [ext_resource path="res://StaticBody2D.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ZonaMorir.tscn" type="PackedScene" id=3]
 
 [node name="Escena" type="Node2D"]
 
@@ -33,7 +34,7 @@ position = Vector2( 1572, 481 )
 position = Vector2( 3037, 536 )
 
 [node name="Baldosa9" parent="." instance=ExtResource( 2 )]
-position = Vector2( 458, 561 )
+position = Vector2( 595, 608 )
 
 [node name="Baldosa10" parent="." instance=ExtResource( 2 )]
 position = Vector2( 2233, 232 )
@@ -61,3 +62,8 @@ position = Vector2( 2838, 897 )
 
 [node name="Baldosa18" parent="." instance=ExtResource( 2 )]
 position = Vector2( 3926, 272 )
+
+[node name="ZonaMorir" parent="." instance=ExtResource( 3 )]
+position = Vector2( 132, 438 )
+
+[connection signal="body_entered" from="ZonaMorir" to="Jugador" method="_on_ZonaMorir_body_entered"]

@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-var velocidad:int = 400
-var brinco:int = 800
-var gravedad:int = 850
+var velocidad:int = 1150
+var brinco:int = 1500
+var gravedad:int = 3000
 var vel:Vector2 = Vector2()
 var piso:bool = false
 onready var sprite = $Sprite
@@ -18,3 +18,7 @@ func _physics_process(delta):
 	if Input.is_action_pressed("ui_up") and is_on_floor():
 		vel.y -= brinco
 	pass
+
+
+func _on_ZonaMorir_body_entered(body):
+	get_tree().change_scene("res://PantallaMorir.tscn")
